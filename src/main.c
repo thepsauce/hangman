@@ -42,7 +42,6 @@ char *get_random_word(void)
 
 int main(int argc, char **argv)
 {
-	static const char *defaultDict = "words_alpha.txt";
 	Hangman hangman;
 
 	srand(time(NULL));

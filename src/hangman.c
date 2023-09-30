@@ -143,7 +143,7 @@ void hangman_printstatus(Hangman *hangman)
 			100 * hangman->guesses.needed /
 				hangman->guesses.total);
 	} else if (hangman->flags & HANGMAN_LOSE) {
-		printw("You lose!", hangman->guesses.total);
+		printw("You lose!");
 	} else {
 		const int remain = hangman->guesses.allowed -
 				hangman->guesses.total +

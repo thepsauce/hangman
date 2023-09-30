@@ -18,7 +18,7 @@ static void version(void)
 static void usage(void)
 {
 	endwin();
-	printf("Hang version 1.0.0, built 09/30/2023\n");
+	printf("Hangman version 1.0.0, built 09/30/2023\n");
 	printf("Play hangman within your terminal!\n\n");
 	printf("--version\tShow the version\n");
 	printf("--usage | --help\tShow this help\n");
